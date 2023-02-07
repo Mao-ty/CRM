@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav-bar {
+   width: 100%;
+   top: 0%;
+   display: flex;
+   background-color: rgb(116, 116, 116);
+   color: white;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   height: 70px;
+}
+.nav-bar .logo {
+    width: 30%;
+    padding-left: 30px;
+    float: left;
+}
+.nav-bar .logo img {
+    width: 90px;
+}
+.nav-bar .link {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}

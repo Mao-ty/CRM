@@ -1,0 +1,41 @@
+.service {
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+.inline {
+    display: flex;
+    padding-top: 50px;
+}
+.inline .box {
+    width: 30%;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 10px;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: white;
+}
+
+@media screen and (max-width: 750px) {
+    .service {
+        height: 130vh;
+    }
+    .inline {
+       display: grid; 
+       grid-gap: 20px;
+    }
+    .inline .box {
+        width: 50%;
+        height: 33.3vh;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 750px) {
+    .inline .box {
+        width: 70%;
+        margin: auto;
+    }
+}
